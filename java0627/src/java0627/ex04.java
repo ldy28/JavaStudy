@@ -1,0 +1,29 @@
+package java0627;
+
+import java.util.Scanner;
+
+public class ex04 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = 0;
+		int b = 0;
+		int c = 0;
+		while(a>=0 && a<=100) {
+			
+			System.out.println("숫자를 입력하세요");
+			a = sc.nextInt();
+			b += a;
+			c++;
+		}
+		b-=a;
+		c-=1;
+		
+		System.out.println("합계 : "+b);
+		System.out.println("평균 : "+(float)b/c);
+		
+		
+		
+	}
+
+}

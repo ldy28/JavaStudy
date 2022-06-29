@@ -1,0 +1,15 @@
+package java0623;
+
+import java.util.Scanner;
+
+public class ex05 {
+	public static void main(String[] args) {
+		Scanner sc = new.Scanner(System.in);
+		
+		System.out.println("첫 번째 정수 입력 : ");
+		int a = sc.nextInt();
+		System.out.println("두 번째 정수 입력 : ");
+		int b = sc.nextInt();
+		System.out.println("두 수의 차 : "+a>b?a-b:b-a);
+	}
+}
